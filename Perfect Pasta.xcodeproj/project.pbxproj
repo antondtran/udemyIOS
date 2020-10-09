@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5513BDC12521D29200B052B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BDC02521D29200B052B1 /* AppDelegate.swift */; };
+		5513BDC32521D29200B052B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BDC22521D29200B052B1 /* SceneDelegate.swift */; };
+		5513BDC52521D29200B052B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BDC42521D29200B052B1 /* ViewController.swift */; };
+		5513BDC82521D29200B052B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513BDC62521D29200B052B1 /* Main.storyboard */; };
+		5513BDCA2521D29200B052B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5513BDC92521D29200B052B1 /* Assets.xcassets */; };
+		5513BDCD2521D29200B052B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513BDCB2521D29200B052B1 /* LaunchScreen.storyboard */; };
+		5513BDD82521D29300B052B1 /* Perfect_PastaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BDD72521D29300B052B1 /* Perfect_PastaTests.swift */; };
+		5513BDE32521D29300B052B1 /* Perfect_PastaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BDE22521D29300B052B1 /* Perfect_PastaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5513BDD42521D29200B052B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5513BDB52521D29200B052B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5513BDBC2521D29200B052B1;
+			remoteInfo = "Perfect Pasta";
+		};
+		5513BDDF2521D29300B052B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5513BDB52521D29200B052B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5513BDBC2521D29200B052B1;
+			remoteInfo = "Perfect Pasta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5513BDBD2521D29200B052B1 /* Perfect Pasta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perfect Pasta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513BDC02521D29200B052B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5513BDC22521D29200B052B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5513BDC42521D29200B052B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5513BDC72521D29200B052B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5513BDC92521D29200B052B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5513BDCC2521D29200B052B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5513BDCE2521D29200B052B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5513BDD32521D29200B052B1 /* Perfect PastaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perfect PastaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513BDD72521D29300B052B1 /* Perfect_PastaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfect_PastaTests.swift; sourceTree = "<group>"; };
+		5513BDD92521D29300B052B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5513BDDE2521D29300B052B1 /* Perfect PastaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perfect PastaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513BDE22521D29300B052B1 /* Perfect_PastaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfect_PastaUITests.swift; sourceTree = "<group>"; };
+		5513BDE42521D29300B052B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5513BDBA2521D29200B052B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BDD02521D29200B052B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BDDB2521D29300B052B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5513BDB42521D29200B052B1 = {
+			isa = PBXGroup;
+			children = (
+				5513BDBF2521D29200B052B1 /* Perfect Pasta */,
+				5513BDD62521D29300B052B1 /* Perfect PastaTests */,
+				5513BDE12521D29300B052B1 /* Perfect PastaUITests */,
+				5513BDBE2521D29200B052B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5513BDBE2521D29200B052B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5513BDBD2521D29200B052B1 /* Perfect Pasta.app */,
+				5513BDD32521D29200B052B1 /* Perfect PastaTests.xctest */,
+				5513BDDE2521D29300B052B1 /* Perfect PastaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5513BDBF2521D29200B052B1 /* Perfect Pasta */ = {
+			isa = PBXGroup;
+			children = (
+				5513BDC02521D29200B052B1 /* AppDelegate.swift */,
+				5513BDC22521D29200B052B1 /* SceneDelegate.swift */,
+				5513BDC42521D29200B052B1 /* ViewController.swift */,
+				5513BDC62521D29200B052B1 /* Main.storyboard */,
+				5513BDC92521D29200B052B1 /* Assets.xcassets */,
+				5513BDCB2521D29200B052B1 /* LaunchScreen.storyboard */,
+				5513BDCE2521D29200B052B1 /* Info.plist */,
+			);
+			path = "Perfect Pasta";
+			sourceTree = "<group>";
+		};
+		5513BDD62521D29300B052B1 /* Perfect PastaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5513BDD72521D29300B052B1 /* Perfect_PastaTests.swift */,
+				5513BDD92521D29300B052B1 /* Info.plist */,
+			);
+			path = "Perfect PastaTests";
+			sourceTree = "<group>";
+		};
+		5513BDE12521D29300B052B1 /* Perfect PastaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5513BDE22521D29300B052B1 /* Perfect_PastaUITests.swift */,
+				5513BDE42521D29300B052B1 /* Info.plist */,
+			);
+			path = "Perfect PastaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5513BDBC2521D29200B052B1 /* Perfect Pasta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513BDE72521D29300B052B1 /* Build configuration list for PBXNativeTarget "Perfect Pasta" */;
+			buildPhases = (
+				5513BDB92521D29200B052B1 /* Sources */,
+				5513BDBA2521D29200B052B1 /* Frameworks */,
+				5513BDBB2521D29200B052B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Perfect Pasta";
+			productName = "Perfect Pasta";
+			productReference = 5513BDBD2521D29200B052B1 /* Perfect Pasta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5513BDD22521D29200B052B1 /* Perfect PastaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513BDEA2521D29300B052B1 /* Build configuration list for PBXNativeTarget "Perfect PastaTests" */;
+			buildPhases = (
+				5513BDCF2521D29200B052B1 /* Sources */,
+				5513BDD02521D29200B052B1 /* Frameworks */,
+				5513BDD12521D29200B052B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5513BDD52521D29200B052B1 /* PBXTargetDependency */,
+			);
+			name = "Perfect PastaTests";
+			productName = "Perfect PastaTests";
+			productReference = 5513BDD32521D29200B052B1 /* Perfect PastaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5513BDDD2521D29300B052B1 /* Perfect PastaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513BDED2521D29300B052B1 /* Build configuration list for PBXNativeTarget "Perfect PastaUITests" */;
+			buildPhases = (
+				5513BDDA2521D29300B052B1 /* Sources */,
+				5513BDDB2521D29300B052B1 /* Frameworks */,
+				5513BDDC2521D29300B052B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5513BDE02521D29300B052B1 /* PBXTargetDependency */,
+			);
+			name = "Perfect PastaUITests";
+			productName = "Perfect PastaUITests";
+			productReference = 5513BDDE2521D29300B052B1 /* Perfect PastaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5513BDB52521D29200B052B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5513BDBC2521D29200B052B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					5513BDD22521D29200B052B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5513BDBC2521D29200B052B1;
+					};
+					5513BDDD2521D29300B052B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5513BDBC2521D29200B052B1;
+					};
+				};
+			};
+			buildConfigurationList = 5513BDB82521D29200B052B1 /* Build configuration list for PBXProject "Perfect Pasta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5513BDB42521D29200B052B1;
+			productRefGroup = 5513BDBE2521D29200B052B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5513BDBC2521D29200B052B1 /* Perfect Pasta */,
+				5513BDD22521D29200B052B1 /* Perfect PastaTests */,
+				5513BDDD2521D29300B052B1 /* Perfect PastaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5513BDBB2521D29200B052B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513BDCD2521D29200B052B1 /* LaunchScreen.storyboard in Resources */,
+				5513BDCA2521D29200B052B1 /* Assets.xcassets in Resources */,
+				5513BDC82521D29200B052B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BDD12521D29200B052B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BDDC2521D29300B052B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5513BDB92521D29200B052B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513BDC52521D29200B052B1 /* ViewController.swift in Sources */,
+				5513BDC12521D29200B052B1 /* AppDelegate.swift in Sources */,
+				5513BDC32521D29200B052B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BDCF2521D29200B052B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513BDD82521D29300B052B1 /* Perfect_PastaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BDDA2521D29300B052B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513BDE32521D29300B052B1 /* Perfect_PastaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5513BDD52521D29200B052B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5513BDBC2521D29200B052B1 /* Perfect Pasta */;
+			targetProxy = 5513BDD42521D29200B052B1 /* PBXContainerItemProxy */;
+		};
+		5513BDE02521D29300B052B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5513BDBC2521D29200B052B1 /* Perfect Pasta */;
+			targetProxy = 5513BDDF2521D29300B052B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5513BDC62521D29200B052B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5513BDC72521D29200B052B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5513BDCB2521D29200B052B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5513BDCC2521D29200B052B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5513BDE52521D29300B052B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5513BDE62521D29300B052B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5513BDE82521D29300B052B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 338RSW2G55;
+				INFOPLIST_FILE = "Perfect Pasta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondtran.Perfect-Pasta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5513BDE92521D29300B052B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 338RSW2G55;
+				INFOPLIST_FILE = "Perfect Pasta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondtran.Perfect-Pasta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5513BDEB2521D29300B052B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 338RSW2G55;
+				INFOPLIST_FILE = "Perfect PastaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondtran.Perfect-PastaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perfect Pasta.app/Perfect Pasta";
+			};
+			name = Debug;
+		};
+		5513BDEC2521D29300B052B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 338RSW2G55;
+				INFOPLIST_FILE = "Perfect PastaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondtran.Perfect-PastaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perfect Pasta.app/Perfect Pasta";
+			};
+			name = Release;
+		};
+		5513BDEE2521D29300B052B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 338RSW2G55;
+				INFOPLIST_FILE = "Perfect PastaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondtran.Perfect-PastaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Perfect Pasta";
+			};
+			name = Debug;
+		};
+		5513BDEF2521D29300B052B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 338RSW2G55;
+				INFOPLIST_FILE = "Perfect PastaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondtran.Perfect-PastaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Perfect Pasta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5513BDB82521D29200B052B1 /* Build configuration list for PBXProject "Perfect Pasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BDE52521D29300B052B1 /* Debug */,
+				5513BDE62521D29300B052B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513BDE72521D29300B052B1 /* Build configuration list for PBXNativeTarget "Perfect Pasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BDE82521D29300B052B1 /* Debug */,
+				5513BDE92521D29300B052B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513BDEA2521D29300B052B1 /* Build configuration list for PBXNativeTarget "Perfect PastaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BDEB2521D29300B052B1 /* Debug */,
+				5513BDEC2521D29300B052B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513BDED2521D29300B052B1 /* Build configuration list for PBXNativeTarget "Perfect PastaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BDEE2521D29300B052B1 /* Debug */,
+				5513BDEF2521D29300B052B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5513BDB52521D29200B052B1 /* Project object */;
+}
